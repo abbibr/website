@@ -12,6 +12,66 @@ body
     font-family: montserrat;
 }
 
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader
+{
+    position: relative;
+    color: rgb(24, 36, 56);
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+.loader::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    animation: blinkCursor 0.8s steps(3) infinite;
+}
+
+@keyframes blinkCursor
+{
+    0%, 75%
+    {
+        opacity: 1;
+    }
+    76%, 100%
+    {
+        opacity: 0;
+    }
+}
+
+.loader h1
+{
+    position: relative;
+    color: rgb(44, 185, 178);
+    font-size: 2em;
+    letter-spacing: 5px;
+    animation: typing 3s steps(15) infinite;
+    overflow: hidden;
+}
+
+@keyframes typing
+{
+    0%,90%,100%
+    {
+        width: 0;
+    }
+    30%,60%
+    {
+        width: 401.88px;
+    }
+}
+
 nav
 {
     background: #0082e6;

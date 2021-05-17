@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSite</title>
-    <link rel="stylesheet" href="nav.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
     <nav>
@@ -24,6 +24,9 @@
         </ul>
     </nav>
     <section>
+        <div class="loader">
+            <h1>Abbosov Ibrohim</h1>
+        </div>
     </section>
 </body>
 </html>

@@ -74,7 +74,7 @@ footer
     color: aqua;
 }
 
-/* .footer-bottom
+.footer-bottom
 {
 
     background: #000;
@@ -88,31 +88,27 @@ footer
     font-size: 16px;
     word-spacing: 2px;
     text-transform: capitalize;
-} */
+}
 
-.img-wrap
+.section
 {
     width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
 }
 
-.img-wrap img
+.container
 {
-    width: 100%;
-    margin: 25px;
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px pink;
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 75px;
 }
 
-body
+.container-section
 {
-    height: 100vh;
-    display: flex;
-}
-
-#aboutus h2
-{
-    margin-bottom: 25px;
+    float: left;
+    width: 55%;
 }
 
 h2
@@ -121,20 +117,84 @@ h2
     color: mediumturquoise;
     top: 9%;
     position: relative;
+    text-transform: uppercase;
 }
 
-#p
+.container-section .content .p
 {
-    color: rgb(85, 81, 81);
-    font-size: 17px;
-    top: 27%;
-    position: absolute;
+    margin-top: 12px;
+    line-height: 1.5;
 }
 
-#p2
-{
-    color: rgb(85, 81, 81);
-    font-size: 17px;
-    top: 57%;
+@media screen and (max-width: 768px) {
+    .container
+    {
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding-top: 0;
+    }
+    .container-section
+    {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    /* .img-wrap
+    {
+        top: 35%;
+        left: 60%;
+        position: absolute;
+        float: right;
+        width: 40%;
+        margin: auto;
+    }
+    .img-wrap img
+    {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        margin: auto;
+    } */
+    /* .footer-content p
+    {
+    bottom: 0;
     position: absolute;
+    /* line-height: 28px; */
+    /* font-size: 15px; */
+    }
+    .content .p
+    {
+        width: 100%;
+        float: none;
+    }
+    
+    /* footer
+    {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 0px;
+    }
+    .footer-content
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .socials
+    {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem 0 2rem 0;
+    } */
 }
