@@ -18,9 +18,8 @@
         <ul>
             <li><a class="active" href="#">Home</a></li>
             <li><a href="about.php">About</a></li>
-            <li><a href="#">Services</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="">Download</a></li>
+            <li><a href="download.php?file='website.zip'">Download</a></li>
         </ul>
     </nav>
     <section>

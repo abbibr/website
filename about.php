@@ -45,8 +45,7 @@
                 My name is <span style="color:red;">Ibrohim Abbosov</span> and I am 16 years old, I am web (<span style="color:red;">backend developer</span>)!
                 I work PHP, Python languages and their frameworks Laravel, Django and for database I use mysql. 
                 I study at Muhammad al-Khorazmiy school. This school specialized for programming! 
-                This school usually takes pupils from 5th grade.</p>
-                <p class="p">&nbsp;&nbsp;&nbsp; So, I have many projects and sites. I made my projects with html, css, bootstrap, 
+                This school usually takes pupils from 5th grade. So, I have many projects and sites. I made my projects with html, css, bootstrap, 
                 but I mainly use different templates for frontend. Because I am backend developer. 
                 So, I always write code php (laravel) and python (django), mysql for backend. I like programming.
                 Thank you all for seing my website.</p>
