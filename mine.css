@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+.container
+{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.container-section
+{
+    float: left;
+    width: 55%;
+}
+
+.image-section
+{
+    float: right;
+    width: 40%;
+}
+
+.image-section img
+{
+    width: 100%;
+    height: auto;
+}
+
+.container-section .title
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    color: lime;
+}
+
+.container-section .content p
+{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.container-section .content .button
+{
+    margin-top: 23px;
+}
+
+.container-section .content .button a
+{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+.container-section .content .button a:hover
+{
+    background-color: #a52a2a;
+    color: #fff;
+}
+
+.container-section .socials
+{
+    margin-top: 40px;
+}
+
+.container-section .socials i
+{
+    color: #a52a2a;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.container-section .socials i:hover
+{
+    color: blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container
+    {
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .container-section
+    {
+        float: none;
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .image-section
+    {
+        float: none;
+        width: 100%;
+    }
+    .image-section img
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .container-section .title
+    {
+        text-align: center;
+        font-size: 19px;
+    }
+    .container-section .content .button
+    {
+        text-align: center;
+    }
+    .container-section .content .button a
+    {
+        padding: 9px 30px;
+    }
+    .container-section .socials
+    {
+        text-align: center;
+    }
+}
